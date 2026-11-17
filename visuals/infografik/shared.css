@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: block;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-Medium.ttf") format("truetype");
+  font-weight: 500; font-style: normal; font-display: block;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 600; font-style: normal; font-display: block;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: block;
+}
+
+:root {
+  --bg: #F5F2EA;
+  --ink: #161410;
+  --muted: #5C5850;
+  --rule: #D5D0C4;
+  --grid: #E7E2D7;
+  --blue: #1B4F8A;
+  --blue-ink: #163F6E;
+  --teal: #187265;
+  --teal-ink: #0F5349;
+  --footer: #E8E3D8;
+  --paper: #FCFAF6;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  width: 1080px;
+  height: 1350px;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "tnum" 1;
+}
+
+.page {
+  width: 1080px;
+  height: 1350px;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  overflow: hidden;
+}
+
+.topbar { height: 8px; background: var(--blue); flex: 0 0 8px; }
+
+.main {
+  flex: 1 1 auto;
+  padding: 40px 64px 12px;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.kicker {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  margin-bottom: 0;
+}
+
+.sub {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--muted);
+  margin-top: 10px;
+}
+
+.footer {
+  flex: 0 0 auto;
+  background: var(--footer);
+  padding: 16px 64px 18px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--muted);
+}
+.footer strong { font-weight: 600; color: var(--muted); }
+
+svg { display: block; }

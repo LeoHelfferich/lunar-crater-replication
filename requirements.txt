@@ -1,0 +1,23 @@
+# Python 3.12 is required. The upstream package declares >=3.11,<3.13.
+# Kaggle and Colab kernels are often 3.13; lunar/realrun/setup_env.sh (and the
+# minitest equivalent) create a separate 3.12 venv with uv and install from there.
+#
+# Install order on a CUDA machine (Tesla T4 or similar), with uv==0.13.8:
+#   uv venv --python 3.12 .venv
+#   source .venv/bin/activate
+#   uv pip install --index-url https://download.pytorch.org/whl/cu126 \
+#       "torch==2.12.1" "torchvision==0.27.1"
+#   uv pip install --extra-index-url https://download.pytorch.org/whl/cu126 \
+#       --index-strategy unsafe-best-match \
+#       "git+https://github.com/NASA-IMPACT/NASA-IBM-Lunar-Foundation-Model.git@d54c67aad513cb9daca444afa425cfb278e4fbf8" \
+#       "terratorch[peft]==1.2.13"
+#
+# The Kaggle run used torch 2.12.1+cu126 and terratorch 1.2.13 (see
+# out1/kaggle-run.log). huggingface_hub is pulled in as a dependency.
+#
+# Visualisation scripts additionally need matplotlib, numpy, and Pillow, which
+# come in with the stack above.
+
+torch==2.12.1
+torchvision==0.27.1
+terratorch[peft]==1.2.13

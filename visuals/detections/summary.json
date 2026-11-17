@@ -1,0 +1,154 @@
+[
+  {
+    "name": "clavius-umfeld",
+    "n_raw": 175,
+    "seconds": 1.92,
+    "max_score": 0.9907987117767334,
+    "counts": {
+      "0.3": 63,
+      "0.5": 41,
+      "0.7": 23
+    },
+    "drawn": {
+      "box@0.3": 63,
+      "circle@0.3": 63,
+      "box@0.5": 41,
+      "circle@0.5": 41,
+      "box@0.7": 23,
+      "circle@0.7": 23
+    }
+  },
+  {
+    "name": "copernicus-rand",
+    "n_raw": 154,
+    "seconds": 1.67,
+    "max_score": 0.9808305501937866,
+    "counts": {
+      "0.3": 42,
+      "0.5": 23,
+      "0.7": 9
+    },
+    "drawn": {
+      "box@0.3": 42,
+      "circle@0.3": 42,
+      "box@0.5": 23,
+      "circle@0.5": 23,
+      "box@0.7": 9,
+      "circle@0.7": 9
+    }
+  },
+  {
+    "name": "hochland-15w",
+    "n_raw": 217,
+    "seconds": 1.7,
+    "max_score": 0.9914325475692749,
+    "counts": {
+      "0.3": 92,
+      "0.5": 55,
+      "0.7": 33
+    },
+    "drawn": {
+      "box@0.3": 92,
+      "circle@0.3": 92,
+      "box@0.5": 55,
+      "circle@0.5": 55,
+      "box@0.7": 33,
+      "circle@0.7": 33
+    }
+  },
+  {
+    "name": "hochland-ost",
+    "n_raw": 196,
+    "seconds": 1.76,
+    "max_score": 0.9997686743736267,
+    "counts": {
+      "0.3": 99,
+      "0.5": 75,
+      "0.7": 52
+    },
+    "drawn": {
+      "box@0.3": 99,
+      "circle@0.3": 99,
+      "box@0.5": 75,
+      "circle@0.5": 75,
+      "box@0.7": 52,
+      "circle@0.7": 52
+    }
+  },
+  {
+    "name": "mare-scherben",
+    "n_raw": 123,
+    "seconds": 1.71,
+    "max_score": 0.9518631100654602,
+    "counts": {
+      "0.3": 23,
+      "0.5": 16,
+      "0.7": 9
+    },
+    "drawn": {
+      "box@0.3": 23,
+      "circle@0.3": 23,
+      "box@0.5": 16,
+      "circle@0.5": 16,
+      "box@0.7": 9,
+      "circle@0.7": 9
+    }
+  },
+  {
+    "name": "petavius-umfeld",
+    "n_raw": 259,
+    "seconds": 1.91,
+    "max_score": 0.9974197149276733,
+    "counts": {
+      "0.3": 92,
+      "0.5": 51,
+      "0.7": 32
+    },
+    "drawn": {
+      "box@0.3": 92,
+      "circle@0.3": 92,
+      "box@0.5": 51,
+      "circle@0.5": 51,
+      "box@0.7": 32,
+      "circle@0.7": 32
+    }
+  },
+  {
+    "name": "theophilus-umfeld",
+    "n_raw": 311,
+    "seconds": 1.77,
+    "max_score": 0.9994118213653564,
+    "counts": {
+      "0.3": 195,
+      "0.5": 149,
+      "0.7": 114
+    },
+    "drawn": {
+      "box@0.3": 195,
+      "circle@0.3": 195,
+      "box@0.5": 149,
+      "circle@0.5": 149,
+      "box@0.7": 114,
+      "circle@0.7": 114
+    }
+  },
+  {
+    "name": "tycho-umfeld",
+    "n_raw": 169,
+    "seconds": 1.68,
+    "max_score": 0.9351447224617004,
+    "counts": {
+      "0.3": 48,
+      "0.5": 27,
+      "0.7": 14
+    },
+    "drawn": {
+      "box@0.3": 48,
+      "circle@0.3": 48,
+      "box@0.5": 27,
+      "circle@0.5": 27,
+      "box@0.7": 14,
+      "circle@0.7": 14
+    }
+  }
+]

@@ -1,0 +1,249 @@
+
+===== session start 2026-11-12 01:54:40 on dev 1
+Seed set to 48
+/tmp/py312/lib/python3.12/site-packages/terratorch/tasks/object_detection_task.py:85: UserWarning: The Object Detection Task has to be considered experimental. This is less mature than the other tasks and being further improved.
+  warnings.warn(
+Using 16bit Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+LunarBackbone: loaded modality info (20 modalities: ['aspect', 'aspect_3m', 'dtm', 'dtm_3m', 'metadata', 'nac', 'slope', 'slope_3m', 'static_maps', 'tok_aspect', 'tok_aspect_3m', 'tok_dtm', 'tok_dtm_3m', 'tok_nac', 'tok_slope', 'tok_slope_3m', 'tok_uv', 'tok_vis', 'uv', 'vis'])
+Warning: Unexpected keys in checkpoint N = 101
+encoder_embeddings.aspect.mod_emb
+encoder_embeddings.aspect.pos_emb
+encoder_embeddings.aspect.proj.weight
+encoder_embeddings.aspect_3m.mod_emb
+encoder_embeddings.aspect_3m.pos_emb
+encoder_embeddings.aspect_3m.proj.weight
+encoder_embeddings.dtm.mod_emb
+encoder_embeddings.dtm.pos_emb
+encoder_embeddings.dtm.proj.weight
+encoder_embeddings.dtm_3m.mod_emb
+encoder_embeddings.dtm_3m.pos_emb
+encoder_embeddings.dtm_3m.proj.weight
+encoder_embeddings.metadata.mod_emb
+encoder_embeddings.metadata.pos_emb
+encoder_embeddings.metadata.token_emb.weight
+encoder_embeddings.nac.mod_emb
+encoder_embeddings.nac.pos_emb
+encoder_embeddings.nac.proj.weight
+encoder_embeddings.slope.mod_emb
+encoder_embeddings.slope.pos_emb
+encoder_embeddings.slope.proj.weight
+encoder_embeddings.slope_3m.mod_emb
+encoder_embeddings.slope_3m.pos_emb
+encoder_embeddings.slope_3m.proj.weight
+encoder_embeddings.static_maps.mod_emb
+encoder_embeddings.static_maps.pos_emb
+encoder_embeddings.static_maps.token_emb.weight
+encoder_embeddings.tok_aspect.mod_emb
+encoder_embeddings.tok_aspect.pos_emb
+encoder_embeddings.tok_aspect.token_emb.weight
+encoder_embeddings.tok_aspect_3m.mod_emb
+encoder_embeddings.tok_aspect_3m.pos_emb
+encoder_embeddings.tok_aspect_3m.token_emb.weight
+encoder_embeddings.tok_dtm.mod_emb
+encoder_embeddings.tok_dtm.pos_emb
+encoder_embeddings.tok_dtm.token_emb.weight
+encoder_embeddings.tok_dtm_3m.mod_emb
+encoder_embeddings.tok_dtm_3m.pos_emb
+encoder_embeddings.tok_dtm_3m.token_emb.weight
+encoder_embeddings.tok_nac.mod_emb
+encoder_embeddings.tok_nac.pos_emb
+encoder_embeddings.tok_nac.token_emb.weight
+encoder_embeddings.tok_slope.mod_emb
+encoder_embeddings.tok_slope.pos_emb
+encoder_embeddings.tok_slope.token_emb.weight
+encoder_embeddings.tok_slope_3m.mod_emb
+encoder_embeddings.tok_slope_3m.pos_emb
+encoder_embeddings.tok_slope_3m.token_emb.weight
+encoder_embeddings.tok_uv.mod_emb
+encoder_embeddings.tok_uv.pos_emb
+encoder_embeddings.tok_uv.token_emb.weight
+encoder_embeddings.tok_vis.mod_emb
+encoder_embeddings.tok_vis.pos_emb
+encoder_embeddings.tok_vis.token_emb.weight
+encoder_embeddings.uv.mod_emb
+encoder_embeddings.uv.pos_emb
+encoder_embeddings.uv.proj.weight
+decoder_embeddings.metadata.mod_emb
+decoder_embeddings.metadata.pos_emb
+decoder_embeddings.metadata.token_emb.weight
+decoder_embeddings.metadata.to_logits.weight
+decoder_embeddings.static_maps.mod_emb
+decoder_embeddings.static_maps.pos_emb
+decoder_embeddings.static_maps.token_emb.weight
+decoder_embeddings.static_maps.to_logits.weight
+decoder_embeddings.tok_aspect.mod_emb
+decoder_embeddings.tok_aspect.pos_emb
+decoder_embeddings.tok_aspect.token_emb.weight
+decoder_embeddings.tok_aspect.to_logits.projection.weight
+decoder_embeddings.tok_aspect_3m.mod_emb
+decoder_embeddings.tok_aspect_3m.pos_emb
+decoder_embeddings.tok_aspect_3m.token_emb.weight
+decoder_embeddings.tok_aspect_3m.to_logits.projection.weight
+decoder_embeddings.tok_dtm.mod_emb
+decoder_embeddings.tok_dtm.pos_emb
+decoder_embeddings.tok_dtm.token_emb.weight
+decoder_embeddings.tok_dtm.to_logits.projection.weight
+decoder_embeddings.tok_dtm_3m.mod_emb
+decoder_embeddings.tok_dtm_3m.pos_emb
+decoder_embeddings.tok_dtm_3m.token_emb.weight
+decoder_embeddings.tok_dtm_3m.to_logits.projection.weight
+decoder_embeddings.tok_nac.mod_emb
+decoder_embeddings.tok_nac.pos_emb
+decoder_embeddings.tok_nac.token_emb.weight
+decoder_embeddings.tok_nac.to_logits.projection.weight
+decoder_embeddings.tok_slope.mod_emb
+decoder_embeddings.tok_slope.pos_emb
+decoder_embeddings.tok_slope.token_emb.weight
+decoder_embeddings.tok_slope.to_logits.projection.weight
+decoder_embeddings.tok_slope_3m.mod_emb
+decoder_embeddings.tok_slope_3m.pos_emb
+decoder_embeddings.tok_slope_3m.token_emb.weight
+decoder_embeddings.tok_slope_3m.to_logits.projection.weight
+decoder_embeddings.tok_uv.mod_emb
+decoder_embeddings.tok_uv.pos_emb
+decoder_embeddings.tok_uv.token_emb.weight
+decoder_embeddings.tok_uv.to_logits.projection.weight
+decoder_embeddings.tok_vis.mod_emb
+decoder_embeddings.tok_vis.pos_emb
+decoder_embeddings.tok_vis.token_emb.weight
+decoder_embeddings.tok_vis.to_logits.projection.weight
+Loaded checkpoint from /tmp/lunar_data/model/backbone/checkpoint.pt
+[LunarObjectDetectionTask] applied PEFT: 2.21M / 201.29M (1.10%) encoder params trainable
+[LunarObjectDetectionTask]  applying eval_box_detections_per_img=500
+[LunarObjectDetectionTask] FasterRCNN caps: box_detections_per_img=500 box_score_thresh=0.05 box_nms_thresh=0.5 rpn_pre_nms_top_n_train=2000 rpn_post_nms_top_n_train=2000 rpn_pre_nms_top_n_test=1000 rpn_post_nms_top_n_test=1000
+[LunarObjectDetectionTask] overrode RPN anchors: sizes=((8,), (16,), (32,), (64,)) aspect_ratios=(0.5, 1.0, 2.0) num_anchors_per_location=3 (rebuilt RPN head, in_channels=256)
+seed 48: fresh start | precision 16-mixed | device Tesla T4
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [1]
+Loading `train_dataloader` to estimate number of stepping batches.
+/tmp/py312/lib/python3.12/site-packages/lightning/pytorch/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+DeterministicAugmentation: seeded 0 pipeline(s) with seed=48
+[LunarObjectDetectionTask] 14 param groups, 24.9M trainable params. layer_decay=1.0 backbone_lr=0.0001 head_lr=0.0001
+  backbone_layer_10_wd             lr=1.00e-04 wd=0.00e+00 n=184,320
+  backbone_layer_11_wd             lr=1.00e-04 wd=0.00e+00 n=184,320
+  backbone_layer_12_wd             lr=1.00e-04 wd=0.00e+00 n=184,320
+  backbone_layer_1_wd              lr=1.00e-04 wd=0.00e+00 n=184,320
+  backbone_layer_2_wd              lr=1.00e-04 wd=0.00e+00 n=184,320
+  backbone_layer_3_wd              lr=1.00e-04 wd=0.00e+00 n=184,320
+  backbone_layer_4_wd              lr=1.00e-04 wd=0.00e+00 n=184,320
+  backbone_layer_5_wd              lr=1.00e-04 wd=0.00e+00 n=184,320
+  backbone_layer_6_wd              lr=1.00e-04 wd=0.00e+00 n=184,320
+  backbone_layer_7_wd              lr=1.00e-04 wd=0.00e+00 n=184,320
+  backbone_layer_8_wd              lr=1.00e-04 wd=0.00e+00 n=184,320
+  backbone_layer_9_wd              lr=1.00e-04 wd=0.00e+00 n=184,320
+  head_nd                          lr=1.00e-04 wd=0.00e+00 n=7,769
+  head_wd                          lr=1.00e-04 wd=1.00e-03 n=22,675,584
+/tmp/py312/lib/python3.12/site-packages/lightning/pytorch/utilities/model_summary/model_summary.py:242: Precision 16-mixed is not supported by the model summary.  Estimated model size in MB will not be accurate. Using 32 bits instead.
+┏━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name          ┃ Type                 ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ model         │ ObjectDetectionModel │  223 M │ train │     0 │
+│ 1 │ train_metrics │ MetricCollection     │      0 │ train │     0 │
+│ 2 │ val_metrics   │ MetricCollection     │      0 │ train │     0 │
+│ 3 │ test_metrics  │ MetricCollection     │      0 │ train │     0 │
+└───┴───────────────┴──────────────────────┴────────┴───────┴───────┘
+Trainable params: 24.9 M                                                        
+Non-trainable params: 199 M                                                     
+Total params: 223 M                                                             
+Total estimated model params size (MB): 895.883                                 
+Modules in train mode: 1005                                                     
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+[val epoch 0] preds=35278 across 100 imgs (preds/img mean=352.8 gt/img mean=106.8) | score max=0.861 p50=0.154 p90=0.441 p99=0.692 | n(>0.1)=24819 n(>0.3)=7831 n(>0.5)=2387
+EPOCH {"seed": 48, "epoch": 1, "utc": "2026-11-12T02:05:49Z", "train_loss": 1.70853, "val_map": 0.02941, "val_map_50": 0.14125, "seconds": 622.7, "peak_vram_GB": 7.19, "lr": 4.011999999999999e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 1] preds=27120 across 100 imgs (preds/img mean=271.2 gt/img mean=106.8) | score max=0.999 p50=0.269 p90=0.827 p99=0.984 | n(>0.1)=22812 n(>0.3)=12388 n(>0.5)=7461
+EPOCH {"seed": 48, "epoch": 2, "utc": "2026-11-12T02:15:37Z", "train_loss": 1.62323, "val_map": 0.17468, "val_map_50": 0.47081, "seconds": 585.8, "peak_vram_GB": 7.19, "lr": 8.003999999999997e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 2] preds=30935 across 100 imgs (preds/img mean=309.4 gt/img mean=106.8) | score max=1.000 p50=0.299 p90=0.903 p99=0.995 | n(>0.1)=26750 n(>0.3)=15424 n(>0.5)=10070
+EPOCH {"seed": 48, "epoch": 3, "utc": "2026-11-12T02:25:37Z", "train_loss": 1.49802, "val_map": 0.19651, "val_map_50": 0.53532, "seconds": 595.5, "peak_vram_GB": 7.19, "lr": 9.991927064434368e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 3] preds=30826 across 100 imgs (preds/img mean=308.3 gt/img mean=106.8) | score max=0.999 p50=0.274 p90=0.846 p99=0.990 | n(>0.1)=26683 n(>0.3)=14271 n(>0.5)=8580
+EPOCH {"seed": 48, "epoch": 4, "utc": "2026-11-12T02:35:35Z", "train_loss": 1.42393, "val_map": 0.20752, "val_map_50": 0.55769, "seconds": 594.5, "peak_vram_GB": 7.19, "lr": 9.927501487446084e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 4] preds=27551 across 100 imgs (preds/img mean=275.5 gt/img mean=106.8) | score max=0.999 p50=0.223 p90=0.848 p99=0.990 | n(>0.1)=21949 n(>0.3)=11034 n(>0.5)=7064
+EPOCH {"seed": 48, "epoch": 5, "utc": "2026-11-12T02:45:24Z", "train_loss": 1.39529, "val_map": 0.22289, "val_map_50": 0.57933, "seconds": 585.4, "peak_vram_GB": 7.18, "lr": 9.79949021939176e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 5] preds=30430 across 100 imgs (preds/img mean=304.3 gt/img mean=106.8) | score max=0.999 p50=0.236 p90=0.828 p99=0.987 | n(>0.1)=24897 n(>0.3)=12666 n(>0.5)=7893
+EPOCH {"seed": 48, "epoch": 6, "utc": "2026-11-12T02:55:19Z", "train_loss": 1.3683, "val_map": 0.22398, "val_map_50": 0.59061, "seconds": 591.6, "peak_vram_GB": 7.19, "lr": 9.609562082918497e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 6] preds=28314 across 100 imgs (preds/img mean=283.1 gt/img mean=106.8) | score max=1.000 p50=0.209 p90=0.872 p99=0.996 | n(>0.1)=21484 n(>0.3)=11085 n(>0.5)=7304
+EPOCH {"seed": 48, "epoch": 7, "utc": "2026-11-12T03:05:11Z", "train_loss": 1.33904, "val_map": 0.23324, "val_map_50": 0.59618, "seconds": 587.7, "peak_vram_GB": 7.19, "lr": 9.360193081742886e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 7] preds=30044 across 100 imgs (preds/img mean=300.4 gt/img mean=106.8) | score max=1.000 p50=0.272 p90=0.911 p99=0.997 | n(>0.1)=24522 n(>0.3)=14105 n(>0.5)=9564
+EPOCH {"seed": 48, "epoch": 8, "utc": "2026-11-12T03:15:06Z", "train_loss": 1.32023, "val_map": 0.22576, "val_map_50": 0.61376, "seconds": 591.5, "peak_vram_GB": 7.19, "lr": 9.054634122155973e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 8] preds=24816 across 100 imgs (preds/img mean=248.2 gt/img mean=106.8) | score max=1.000 p50=0.254 p90=0.895 p99=0.995 | n(>0.1)=19734 n(>0.3)=11244 n(>0.5)=7670
+EPOCH {"seed": 48, "epoch": 9, "utc": "2026-11-12T03:24:48Z", "train_loss": 1.30395, "val_map": 0.24307, "val_map_50": 0.60201, "seconds": 578.6, "peak_vram_GB": 7.18, "lr": 8.696868632488191e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 1}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 9] preds=26547 across 100 imgs (preds/img mean=265.5 gt/img mean=106.8) | score max=1.000 p50=0.240 p90=0.892 p99=0.996 | n(>0.1)=20979 n(>0.3)=11529 n(>0.5)=7817
+EPOCH {"seed": 48, "epoch": 10, "utc": "2026-11-12T03:34:36Z", "train_loss": 1.2815, "val_map": 0.25029, "val_map_50": 0.61418, "seconds": 585.1, "peak_vram_GB": 7.19, "lr": 8.291560633029167e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 10] preds=27600 across 100 imgs (preds/img mean=276.0 gt/img mean=106.8) | score max=1.000 p50=0.236 p90=0.875 p99=0.995 | n(>0.1)=21902 n(>0.3)=11800 n(>0.5)=7890
+EPOCH {"seed": 48, "epoch": 11, "utc": "2026-11-12T03:44:32Z", "train_loss": 1.26729, "val_map": 0.23693, "val_map_50": 0.61187, "seconds": 591.9, "peak_vram_GB": 7.19, "lr": 7.843993933390519e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 11] preds=27407 across 100 imgs (preds/img mean=274.1 gt/img mean=106.8) | score max=1.000 p50=0.256 p90=0.911 p99=0.997 | n(>0.1)=22131 n(>0.3)=12348 n(>0.5)=8369
+EPOCH {"seed": 48, "epoch": 12, "utc": "2026-11-12T03:54:29Z", "train_loss": 1.26185, "val_map": 0.25001, "val_map_50": 0.62797, "seconds": 593.1, "peak_vram_GB": 7.19, "lr": 7.360003249967098e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 1}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 12] preds=26894 across 100 imgs (preds/img mean=268.9 gt/img mean=106.8) | score max=1.000 p50=0.280 p90=0.930 p99=0.998 | n(>0.1)=21946 n(>0.3)=12938 n(>0.5)=9066
+EPOCH {"seed": 48, "epoch": 13, "utc": "2026-11-12T04:04:26Z", "train_loss": 1.25901, "val_map": 0.2541, "val_map_50": 0.62325, "seconds": 594.2, "peak_vram_GB": 7.19, "lr": 6.84589814148569e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 13] preds=24125 across 100 imgs (preds/img mean=241.2 gt/img mean=106.8) | score max=1.000 p50=0.232 p90=0.904 p99=0.997 | n(>0.1)=18641 n(>0.3)=10308 n(>0.5)=7096
+EPOCH {"seed": 48, "epoch": 14, "utc": "2026-11-12T04:14:15Z", "train_loss": 1.24379, "val_map": 0.2488, "val_map_50": 0.61884, "seconds": 585.2, "peak_vram_GB": 7.19, "lr": 6.308380754257784e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 14] preds=24211 across 100 imgs (preds/img mean=242.1 gt/img mean=106.8) | score max=1.000 p50=0.236 p90=0.912 p99=0.998 | n(>0.1)=18843 n(>0.3)=10429 n(>0.5)=7242
+EPOCH {"seed": 48, "epoch": 15, "utc": "2026-11-12T04:24:05Z", "train_loss": 1.23259, "val_map": 0.2496, "val_map_50": 0.63047, "seconds": 586.4, "peak_vram_GB": 7.19, "lr": 5.754458449452791e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 15] preds=24934 across 100 imgs (preds/img mean=249.3 gt/img mean=106.8) | score max=1.000 p50=0.289 p90=0.946 p99=0.999 | n(>0.1)=20322 n(>0.3)=12218 n(>0.5)=8712
+EPOCH {"seed": 48, "epoch": 16, "utc": "2026-11-12T04:33:54Z", "train_loss": 1.22803, "val_map": 0.25921, "val_map_50": 0.63116, "seconds": 586.2, "peak_vram_GB": 7.19, "lr": 5.191352451428823e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 16] preds=27964 across 100 imgs (preds/img mean=279.6 gt/img mean=106.8) | score max=1.000 p50=0.254 p90=0.902 p99=0.997 | n(>0.1)=22601 n(>0.3)=12607 n(>0.5)=8548
+EPOCH {"seed": 48, "epoch": 17, "utc": "2026-11-12T04:43:55Z", "train_loss": 1.21581, "val_map": 0.26328, "val_map_50": 0.64109, "seconds": 596.7, "peak_vram_GB": 7.19, "lr": 4.62640370802977e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 17] preds=27946 across 100 imgs (preds/img mean=279.5 gt/img mean=106.8) | score max=1.000 p50=0.270 p90=0.917 p99=0.998 | n(>0.1)=22853 n(>0.3)=13121 n(>0.5)=8954
+EPOCH {"seed": 48, "epoch": 18, "utc": "2026-11-12T04:53:54Z", "train_loss": 1.21444, "val_map": 0.25864, "val_map_50": 0.64049, "seconds": 595.4, "peak_vram_GB": 7.19, "lr": 4.066977190103578e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 18] preds=25167 across 100 imgs (preds/img mean=251.7 gt/img mean=106.8) | score max=1.000 p50=0.251 p90=0.927 p99=0.998 | n(>0.1)=19769 n(>0.3)=11325 n(>0.5)=7967
+EPOCH {"seed": 48, "epoch": 19, "utc": "2026-11-12T05:03:47Z", "train_loss": 1.20521, "val_map": 0.2635, "val_map_50": 0.64124, "seconds": 589.8, "peak_vram_GB": 7.19, "lr": 3.5203658778440234e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 19] preds=23993 across 100 imgs (preds/img mean=239.9 gt/img mean=106.8) | score max=1.000 p50=0.259 p90=0.935 p99=0.999 | n(>0.1)=19238 n(>0.3)=11060 n(>0.5)=7750
+EPOCH {"seed": 48, "epoch": 20, "utc": "2026-11-12T05:13:37Z", "train_loss": 1.18992, "val_map": 0.25934, "val_map_50": 0.63789, "seconds": 585.2, "peak_vram_GB": 7.19, "lr": 2.9936956856406696e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 20] preds=25613 across 100 imgs (preds/img mean=256.1 gt/img mean=106.8) | score max=1.000 p50=0.254 p90=0.928 p99=0.999 | n(>0.1)=20270 n(>0.3)=11610 n(>0.5)=8054
+EPOCH {"seed": 48, "epoch": 21, "utc": "2026-11-12T05:23:29Z", "train_loss": 1.18432, "val_map": 0.2604, "val_map_50": 0.64331, "seconds": 589.4, "peak_vram_GB": 7.19, "lr": 2.493832564887143e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 1}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 21] preds=23415 across 100 imgs (preds/img mean=234.1 gt/img mean=106.8) | score max=1.000 p50=0.247 p90=0.928 p99=0.999 | n(>0.1)=18367 n(>0.3)=10421 n(>0.5)=7336
+EPOCH {"seed": 48, "epoch": 22, "utc": "2026-11-12T05:33:15Z", "train_loss": 1.18036, "val_map": 0.2615, "val_map_50": 0.63799, "seconds": 582.8, "peak_vram_GB": 7.19, "lr": 2.0272929958045834e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 22] preds=22824 across 100 imgs (preds/img mean=228.2 gt/img mean=106.8) | score max=1.000 p50=0.252 p90=0.931 p99=0.999 | n(>0.1)=17843 n(>0.3)=10330 n(>0.5)=7283
+EPOCH {"seed": 48, "epoch": 23, "utc": "2026-11-12T05:43:00Z", "train_loss": 1.17675, "val_map": 0.26751, "val_map_50": 0.64207, "seconds": 581.3, "peak_vram_GB": 7.19, "lr": 1.6001590351562985e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 23] preds=24357 across 100 imgs (preds/img mean=243.6 gt/img mean=106.8) | score max=1.000 p50=0.255 p90=0.930 p99=0.999 | n(>0.1)=19207 n(>0.3)=11057 n(>0.5)=7730
+EPOCH {"seed": 48, "epoch": 24, "utc": "2026-11-12T05:52:48Z", "train_loss": 1.1691, "val_map": 0.26857, "val_map_50": 0.64497, "seconds": 584.5, "peak_vram_GB": 7.19, "lr": 1.217999027336538e-05, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 24] preds=23772 across 100 imgs (preds/img mean=237.7 gt/img mean=106.8) | score max=1.000 p50=0.252 p90=0.930 p99=0.999 | n(>0.1)=18698 n(>0.3)=10716 n(>0.5)=7522
+EPOCH {"seed": 48, "epoch": 25, "utc": "2026-11-12T06:02:35Z", "train_loss": 1.1642, "val_map": 0.26929, "val_map_50": 0.64426, "seconds": 583.1, "peak_vram_GB": 7.19, "lr": 8.857950124856494e-06, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 25] preds=23616 across 100 imgs (preds/img mean=236.2 gt/img mean=106.8) | score max=1.000 p50=0.255 p90=0.936 p99=0.999 | n(>0.1)=18718 n(>0.3)=10786 n(>0.5)=7583
+EPOCH {"seed": 48, "epoch": 26, "utc": "2026-11-12T06:12:21Z", "train_loss": 1.1607, "val_map": 0.26501, "val_map_50": 0.64453, "seconds": 581.8, "peak_vram_GB": 7.19, "lr": 6.078777779777757e-06, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 26] preds=23859 across 100 imgs (preds/img mean=238.6 gt/img mean=106.8) | score max=1.000 p50=0.253 p90=0.934 p99=0.999 | n(>0.1)=18772 n(>0.3)=10774 n(>0.5)=7580
+EPOCH {"seed": 48, "epoch": 27, "utc": "2026-11-12T06:22:10Z", "train_loss": 1.16444, "val_map": 0.27119, "val_map_50": 0.64805, "seconds": 584.0, "peak_vram_GB": 7.19, "lr": 3.878703999843547e-06, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 27] preds=24301 across 100 imgs (preds/img mean=243.0 gt/img mean=106.8) | score max=1.000 p50=0.258 p90=0.936 p99=0.999 | n(>0.1)=19251 n(>0.3)=11195 n(>0.5)=7867
+EPOCH {"seed": 48, "epoch": 28, "utc": "2026-11-12T06:31:58Z", "train_loss": 1.15748, "val_map": 0.2711, "val_map_50": 0.64761, "seconds": 584.1, "peak_vram_GB": 7.19, "lr": 2.286410111354512e-06, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 28] preds=24021 across 100 imgs (preds/img mean=240.2 gt/img mean=106.8) | score max=1.000 p50=0.255 p90=0.936 p99=0.999 | n(>0.1)=18987 n(>0.3)=10968 n(>0.5)=7711
+EPOCH {"seed": 48, "epoch": 29, "utc": "2026-11-12T06:41:45Z", "train_loss": 1.1589, "val_map": 0.27061, "val_map_50": 0.64741, "seconds": 583.1, "peak_vram_GB": 7.19, "lr": 1.3226541002467674e-06, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+[val epoch 29] preds=23734 across 100 imgs (preds/img mean=237.3 gt/img mean=106.8) | score max=1.000 p50=0.252 p90=0.933 p99=0.999 | n(>0.1)=18650 n(>0.3)=10713 n(>0.5)=7519
+EPOCH {"seed": 48, "epoch": 30, "utc": "2026-11-12T06:51:29Z", "train_loss": 1.15665, "val_map": 0.27014, "val_map_50": 0.64765, "seconds": 581.0, "peak_vram_GB": 7.19, "lr": 1e-06, "nan_loss_batches": 0, "skipped_nonfinite_steps": 0}
+`weights_only` was not set, defaulting to `False`.
+`Trainer.fit` stopped: `max_epochs=30` reached.
+Restoring states from the checkpoint path at /kaggle/working/lunar_real/runs/seed48/ckpt/best.ckpt
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [1]
+Loaded model weights from the checkpoint at /kaggle/working/lunar_real/runs/seed48/ckpt/best.ckpt
+DeterministicAugmentation: seeded 0 pipeline(s) with seed=48
+seed 48: DONE test mAP 0.2539 (mAP50 0.6106)

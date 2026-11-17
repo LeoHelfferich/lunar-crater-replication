@@ -1,0 +1,16 @@
+{
+ "device": "cpu",
+ "gpu_total_GB": null,
+ "peak_vram_GB": null,
+ "peak_vram_reserved_GB": null,
+ "precision": "32",
+ "batch": 1,
+ "accum": 1,
+ "patch": 16,
+ "train_tiles": 12,
+ "seconds_per_epoch": [
+  4.0
+ ],
+ "fit_seconds_total": 4.5,
+ "test_mAP_after_mini_finetune": 0.0
+}

@@ -1,0 +1,10 @@
+{
+ "accelerator": "cpu",
+ "tiles": 4,
+ "seconds_total": 10.1,
+ "seconds_per_tile": 2.5,
+ "test_mAP": 0.2728269398212433,
+ "test_mAP_50": 0.6549797058105469,
+ "ref_craters": 396,
+ "peak_vram_GB": null
+}

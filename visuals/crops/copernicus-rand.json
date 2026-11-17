@@ -1,0 +1,17 @@
+{
+  "name": "copernicus-rand",
+  "center_lat": 10.2,
+  "center_lon": -19.5,
+  "row0": 23942,
+  "col0": 48413,
+  "size": 512,
+  "gds_m": 100,
+  "source": "USGS / LROC WAC Global Morphology Mosaic 100m, June 2013",
+  "url": "https://planetarymaps.usgs.gov/mosaic/Lunar_LRO_LROC-WAC_Mosaic_global_100m_June2013.tif",
+  "page": "https://astrogeology.usgs.gov/search/map/moon_lro_lroc_wac_global_morphology_mosaic_100m",
+  "license": "Public domain (USGS; original LROC data NASA/GSFC/ASU, PDS)",
+  "credit": "NASA/GSFC/Arizona State University (LROC WAC), USGS mosaic June 2013",
+  "dn_min": 2,
+  "dn_max": 229,
+  "dn_mean": 90.59391403198242
+}

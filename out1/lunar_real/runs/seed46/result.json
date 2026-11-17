@@ -1,0 +1,19 @@
+{
+ "seed": 46,
+ "test_map": 0.25505366921424866,
+ "test_map_50": 0.6125012636184692,
+ "test_map_75": 0.22166477143764496,
+ "best_epoch": 29,
+ "best_val_map": 0.26776,
+ "epochs": 30,
+ "mean_epoch_seconds": 593.6,
+ "peak_vram_GB": 7.19,
+ "precision": "16-mixed",
+ "batch": 1,
+ "accum": 4,
+ "patch": 8,
+ "deterministic": false,
+ "limit_train": 0,
+ "limit_eval": 0,
+ "utc": "2026-11-12T01:55:43Z"
+}

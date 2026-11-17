@@ -1,0 +1,17 @@
+{
+  "name": "clavius-umfeld",
+  "center_lat": -57.0,
+  "center_lon": -14.0,
+  "row0": 44319,
+  "col0": 50081,
+  "size": 512,
+  "gds_m": 100,
+  "source": "USGS / LROC WAC Global Morphology Mosaic 100m, June 2013",
+  "url": "https://planetarymaps.usgs.gov/mosaic/Lunar_LRO_LROC-WAC_Mosaic_global_100m_June2013.tif",
+  "page": "https://astrogeology.usgs.gov/search/map/moon_lro_lroc_wac_global_morphology_mosaic_100m",
+  "license": "Public domain (USGS; original LROC data NASA/GSFC/ASU, PDS)",
+  "credit": "NASA/GSFC/Arizona State University (LROC WAC), USGS mosaic June 2013",
+  "dn_min": 1,
+  "dn_max": 246,
+  "dn_mean": 90.00997543334961
+}

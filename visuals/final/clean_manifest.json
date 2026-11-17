@@ -1,0 +1,72 @@
+{
+  "clavius-zentriert": {
+    "label": "Clavius, Kraterboden",
+    "path": "final/krater-clavius.png",
+    "kept": 17,
+    "dropped_clipped": 2,
+    "thresh": 0.7
+  },
+  "hochland-ost": {
+    "label": "Palus Somni",
+    "path": "final/krater-palus-somni.png",
+    "kept": 51,
+    "dropped_clipped": 1,
+    "thresh": 0.7
+  },
+  "tycho-umfeld": {
+    "label": "Tycho, Nordostteil",
+    "path": "final/krater-tycho-nordostteil.png",
+    "kept": 12,
+    "dropped_clipped": 2,
+    "thresh": 0.7
+  },
+  "copernicus-rand": {
+    "label": "Copernicus, Nordostteil",
+    "path": "final/krater-copernicus-nordostteil.png",
+    "kept": 9,
+    "dropped_clipped": 0,
+    "thresh": 0.7
+  },
+  "mond_animation": {
+    "rule": "score >= 0.7; circle (box centre, mean half side) fully inside the 512 px crop",
+    "crops": {
+      "mare-scherben": {
+        "label": "Mare Imbrium",
+        "detections_ge_0.7": 9,
+        "shown": 9
+      },
+      "copernicus-rand": {
+        "label": "Copernicus, Nordostteil",
+        "detections_ge_0.7": 9,
+        "shown": 9
+      },
+      "tycho-umfeld": {
+        "label": "Tycho, Nordostteil",
+        "detections_ge_0.7": 14,
+        "shown": 12
+      },
+      "clavius-zentriert": {
+        "label": "Clavius, Kraterboden",
+        "detections_ge_0.7": 19,
+        "shown": 17
+      },
+      "theophilus-umfeld": {
+        "label": "Südliches Hochland, 26° S 27,5° O",
+        "detections_ge_0.7": 114,
+        "shown": 105
+      },
+      "petavius-umfeld": {
+        "label": "Petavius, Kratermitte",
+        "detections_ge_0.7": 32,
+        "shown": 30
+      },
+      "hochland-ost": {
+        "label": "Palus Somni",
+        "detections_ge_0.7": 52,
+        "shown": 51
+      }
+    },
+    "total_shown": 233,
+    "total_detections_ge_0.7": 249
+  }
+}

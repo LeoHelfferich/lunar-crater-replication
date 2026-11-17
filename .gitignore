@@ -1,0 +1,34 @@
+# Virtual environments
+.venv/
+venv/
+kv/
+**/__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Model checkpoints and weights
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+
+# Downloaded data (Sombench tiles, backbone, HF caches)
+data/
+**/hf/
+**/wac/
+**/wac_mini/
+*.tif
+*.tiff
+images_tiff/
+
+# Caches and logs that are not part of the recorded run
+.cache/
+**/.cache/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.env
+.env.*
